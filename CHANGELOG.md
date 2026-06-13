@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.1.2...v1.1.3) (2026-06-13)
+
+
+### Bug Fixes
+
+* publish Open VSX namespace ([81a8b48](https://github.com/dm3yb/vscode-theme-toggle/commit/81a8b48ad7b5fcfde20cead5ba6368d183d56f70))
+
 ## [1.1.2](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.1.1...v1.1.2) (2026-06-13)
 
 
