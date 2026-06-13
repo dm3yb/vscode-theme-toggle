@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.1.0...v1.1.1) (2026-06-13)
+
+
+### Bug Fixes
+
+* publish to the VS Code Marketplace ([3e90aa7](https://github.com/dm3yb/vscode-theme-toggle/commit/3e90aa74157c4d608f308798c270a2910b2fd038))
+
 ## [1.1.0](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.0.0...v1.1.0) (2026-06-13)
 
 
