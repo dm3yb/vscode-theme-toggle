@@ -1,7 +1,7 @@
 {
   "name": "theme-toggle",
   "displayName": "Lumina – Theme Toggle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Automatically switch between a light and dark theme by sunrise/sunset, system preference, schedule, or manual toggle.",
   "categories": [
     "Other",

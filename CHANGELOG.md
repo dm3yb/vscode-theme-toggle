@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.1.1...v1.1.2) (2026-06-13)
+
+
+### Bug Fixes
+
+* publish to Open VSX ([d40101f](https://github.com/dm3yb/vscode-theme-toggle/commit/d40101fdea4c588f5228e1de33b6e756d57b6baf))
+* publish to Open VSX ([11ba0f3](https://github.com/dm3yb/vscode-theme-toggle/commit/11ba0f3a7efffbd0f8bf0cb7018b75492571111a))
+
 ## [1.1.1](https://github.com/dm3yb/vscode-theme-toggle/compare/v1.1.0...v1.1.1) (2026-06-13)
 
 
