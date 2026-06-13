@@ -1,0 +1,54 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#2a3160"/>
+      <stop offset="1" stop-color="#11142b"/>
+    </linearGradient>
+    <radialGradient id="dawn" cx="0.5" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#ff9e6d" stop-opacity="0.18"/>
+      <stop offset="0.6" stop-color="#ff9e6d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="light" x1="0.1" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6ebff"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#222a55"/>
+      <stop offset="1" stop-color="#141a3a"/>
+    </linearGradient>
+    <linearGradient id="seam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9b8" stop-opacity="0.0"/>
+      <stop offset="0.5" stop-color="#ffc59a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffd9b8" stop-opacity="0.0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.78" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.92" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="115" fill="url(#dawn)"/>
+
+  <!-- soft depth halo behind disc -->
+  <circle cx="256" cy="256" r="172" fill="url(#halo)"/>
+
+  <!-- full disc (dark side) -->
+  <circle cx="256" cy="256" r="158" fill="url(#dark)"/>
+
+  <!-- light comma (yang) -->
+  <path d="M 256 98
+           A 158 158 0 0 0 256 414
+           A 79 79 0 0 1 256 256
+           A 79 79 0 0 0 256 98 Z"
+        fill="url(#light)"/>
+
+  <!-- warm transition seam (sunrise/sunset) -->
+  <path d="M 256 98 A 79 79 0 0 1 256 256 A 79 79 0 0 0 256 414"
+        fill="none" stroke="url(#seam)" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- crisp silhouette ring -->
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2.5"/>
+</svg>
