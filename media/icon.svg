@@ -1,54 +1,43 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0" stop-color="#2a3160"/>
-      <stop offset="1" stop-color="#11142b"/>
-    </linearGradient>
-    <radialGradient id="dawn" cx="0.5" cy="0.6" r="0.6">
-      <stop offset="0" stop-color="#ff9e6d" stop-opacity="0.18"/>
-      <stop offset="0.6" stop-color="#ff9e6d" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="light" x1="0.1" y1="0" x2="0.4" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#e6ebff"/>
-    </linearGradient>
-    <linearGradient id="dark" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0" stop-color="#222a55"/>
-      <stop offset="1" stop-color="#141a3a"/>
-    </linearGradient>
-    <linearGradient id="seam" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffd9b8" stop-opacity="0.0"/>
-      <stop offset="0.5" stop-color="#ffc59a" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#ffd9b8" stop-opacity="0.0"/>
-    </linearGradient>
-    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0.78" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="0.92" stop-color="#000000" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-
-  <!-- background -->
-  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
-  <rect width="512" height="512" rx="115" fill="url(#dawn)"/>
-
-  <!-- soft depth halo behind disc -->
-  <circle cx="256" cy="256" r="172" fill="url(#halo)"/>
-
-  <!-- full disc (dark side) -->
-  <circle cx="256" cy="256" r="158" fill="url(#dark)"/>
-
-  <!-- light comma (yang) -->
-  <path d="M 256 98
-           A 158 158 0 0 0 256 414
-           A 79 79 0 0 1 256 256
-           A 79 79 0 0 0 256 98 Z"
-        fill="url(#light)"/>
-
-  <!-- warm transition seam (sunrise/sunset) -->
-  <path d="M 256 98 A 79 79 0 0 1 256 256 A 79 79 0 0 0 256 414"
-        fill="none" stroke="url(#seam)" stroke-width="3.5" stroke-linecap="round"/>
-
-  <!-- crisp silhouette ring -->
-  <circle cx="256" cy="256" r="158" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2.5"/>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_407_63)">
+<path d="M397 0H115C51.4873 0 0 51.4873 0 115V397C0 460.513 51.4873 512 115 512H397C460.513 512 512 460.513 512 397V115C512 51.4873 460.513 0 397 0Z" fill="url(#paint0_linear_407_63)"/>
+<path d="M115 2.5H397C459.132 2.5 509.5 52.868 509.5 115V397C509.5 459.132 459.132 509.5 397 509.5H115C52.868 509.5 2.5 459.132 2.5 397V115C2.5 52.868 52.868 2.5 115 2.5Z" stroke="white" stroke-opacity="0.16" stroke-width="5"/>
+<path d="M397 0H115C51.4873 0 0 51.4873 0 115V397C0 460.513 51.4873 512 115 512H397C460.513 512 512 460.513 512 397V115C512 51.4873 460.513 0 397 0Z" fill="url(#paint1_radial_407_63)"/>
+<path d="M256 428C350.993 428 428 350.993 428 256C428 161.007 350.993 84 256 84C161.007 84 84 161.007 84 256C84 350.993 161.007 428 256 428Z" fill="url(#paint2_radial_407_63)"/>
+<path d="M256 414C343.261 414 414 343.261 414 256C414 168.739 343.261 98 256 98C168.739 98 98 168.739 98 256C98 343.261 168.739 414 256 414Z" fill="url(#paint3_linear_407_63)"/>
+<path d="M256 98C214.096 98 173.908 114.646 144.277 144.277C114.646 173.908 98 214.096 98 256C98 297.904 114.646 338.092 144.277 367.723C173.908 397.354 214.096 414 256 414C235.048 414 214.954 405.677 200.139 390.861C185.323 376.046 177 355.952 177 335C177 314.048 185.323 293.954 200.139 279.139C214.954 264.323 235.048 256 256 256C276.952 256 297.046 247.677 311.861 232.861C326.677 218.046 335 197.952 335 177C335 156.048 326.677 135.954 311.861 121.139C297.046 106.323 276.952 98 256 98Z" fill="url(#paint4_linear_407_63)"/>
+<path d="M256 98C276.952 98 297.046 106.323 311.861 121.139C326.677 135.954 335 156.048 335 177C335 197.952 326.677 218.046 311.861 232.861C297.046 247.677 276.952 256 256 256C235.048 256 214.954 264.323 200.139 279.139C185.323 293.954 177 314.048 177 335C177 355.952 185.323 376.046 200.139 390.861C214.954 405.677 235.048 414 256 414" stroke="url(#paint5_linear_407_63)" stroke-width="42" stroke-linecap="round"/>
+<path d="M256 414C343.261 414 414 343.261 414 256C414 168.739 343.261 98 256 98C168.739 98 98 168.739 98 256C98 343.261 168.739 414 256 414Z" stroke="white" stroke-opacity="0.16" stroke-width="42"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_407_63" x1="0" y1="0" x2="102.4" y2="512" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2A3160"/>
+<stop offset="1" stop-color="#11142B"/>
+</linearGradient>
+<radialGradient id="paint1_radial_407_63" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 307.2) scale(307.2)">
+<stop stop-color="#FF9E6D" stop-opacity="0.18"/>
+<stop offset="0.6" stop-color="#FF9E6D" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_407_63" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) scale(172)">
+<stop offset="0.78" stop-opacity="0"/>
+<stop offset="0.92" stop-opacity="0.22"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint3_linear_407_63" x1="98" y1="98" x2="192.8" y2="414" gradientUnits="userSpaceOnUse">
+<stop stop-color="#222A55"/>
+<stop offset="1" stop-color="#141A3A"/>
+</linearGradient>
+<linearGradient id="paint4_linear_407_63" x1="121.7" y1="98" x2="240.472" y2="394.931" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#E6EBFF"/>
+</linearGradient>
+<linearGradient id="paint5_linear_407_63" x1="177" y1="98" x2="177" y2="414" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD9B8" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#FFC59A" stop-opacity="0.85"/>
+<stop offset="1" stop-color="#FFD9B8" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_407_63">
+<rect width="512" height="512" fill="white"/>
+</clipPath>
+</defs>
 </svg>
